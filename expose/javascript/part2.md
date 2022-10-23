@@ -38,4 +38,7 @@
     6.  true === Boolean(2) = true, Boolean(2) is true 
 15. === checks for type as well as value, while == just checks for value
 
+17. The function will return the value [2,4,6] since the function modifyArray takes in the array [1,2,3] and pushes the num*2 into the returned array. This is done by calling the doSomething function which implements num*2 for every value in the array. 
+
+19. The output of the code here is 1,4,3,2 since the 1 and 4 are printed first, then the 3 since it has a timeout of 0, and then 2 after 1 second. 
 
